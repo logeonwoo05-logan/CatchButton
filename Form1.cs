@@ -9,7 +9,8 @@ namespace CatchButton
 
         private void runningbutton_Click(object sender, EventArgs e)
         {
-
+            // 버튼을 클릭하는 데 성공했을 때 메시지 띄우기
+            MessageBox.Show("축하합니다~!");
         }
 
         private void runningbutton_MouseEnter(object sender, EventArgs e)
