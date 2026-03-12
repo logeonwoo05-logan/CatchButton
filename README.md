@@ -9,20 +9,25 @@
 <img width="403" height="253" alt="스크린샷 2026-03-12 오후 4 37 51" src="https://github.com/user-attachments/assets/5cc9505c-e5f8-42a3-a94c-4a9bfc3168ff" />
 
 
-1단계
+
+###1단계
 
 <img width="403" height="254" alt="스크린샷 2026-03-12 오후 4 39 05" src="https://github.com/user-attachments/assets/06a3d3e6-83f9-4749-8887-7cff343aaaf4" />
 
 마우스 접근시 버튼이 움직이면서 Title Bar에 버튼 위치가 표시됨
 
-2단계
+
+
+###2단계
 
 <img width="403" height="256" alt="스크린샷 2026-03-12 오후 5 14 21" src="https://github.com/user-attachments/assets/67fb6390-47cb-4765-a5c4-6c9571f736fb" />
 
 버튼을 잡았을 때 버튼을 클릭하면 “축하합니다~!” 라고 메시지 박스 표시
 
 
-3단계
+
+
+###3단계
 
 <img width="227" height="34" alt="스크린샷 2026-03-12 오후 5 16 33" src="https://github.com/user-attachments/assets/d8969bcd-fc26-4be3-8598-8433111a4e0f" />
 
@@ -33,7 +38,10 @@
 <img width="402" height="255" alt="스크린샷 2026-03-12 오후 5 17 24" src="https://github.com/user-attachments/assets/d626f6ef-c71d-46a4-8986-88ff1ae51651" />
 난도 조절을 위해 성공시 10% 크기 축소
 
-4단계
+
+
+
+###4단계
 
 <img width="402" height="254" alt="스크린샷 2026-03-12 오후 5 18 14" src="https://github.com/user-attachments/assets/a51a4842-3b14-4c4a-802e-44741ec7c489" />
 
