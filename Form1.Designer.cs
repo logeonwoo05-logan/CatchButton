@@ -28,12 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            runningbutton = new Button();
+            SuspendLayout();
+            // 
+            // runningbutton
+            // 
+            runningbutton.BackColor = Color.Red;
+            runningbutton.Font = new Font("맑은 고딕", 15F, FontStyle.Bold);
+            runningbutton.ForeColor = Color.Yellow;
+            runningbutton.Location = new Point(294, 122);
+            runningbutton.Name = "runningbutton";
+            runningbutton.Size = new Size(254, 118);
+            runningbutton.TabIndex = 0;
+            runningbutton.Text = "나를 잡아봐";
+            runningbutton.UseVisualStyleBackColor = false;
+            runningbutton.Click += runningbutton_Click;
+            runningbutton.MouseEnter += runningbutton_MouseEnter;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(14F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Text = "Form1";
+            Controls.Add(runningbutton);
+            Name = "Form1";
+            Text = "버튼 잡기 게임";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button runningbutton;
     }
 }
