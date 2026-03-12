@@ -10,7 +10,7 @@
 
 
 
-##1단계
+## 1단계
 
 <img width="403" height="254" alt="스크린샷 2026-03-12 오후 4 39 05" src="https://github.com/user-attachments/assets/06a3d3e6-83f9-4749-8887-7cff343aaaf4" />
 
@@ -18,7 +18,7 @@
 
 
 
-##2단계
+## 2단계
 
 <img width="403" height="256" alt="스크린샷 2026-03-12 오후 5 14 21" src="https://github.com/user-attachments/assets/67fb6390-47cb-4765-a5c4-6c9571f736fb" />
 
@@ -27,7 +27,7 @@
 
 
 
-##3단계
+## 3단계
 
 <img width="227" height="34" alt="스크린샷 2026-03-12 오후 5 16 33" src="https://github.com/user-attachments/assets/d8969bcd-fc26-4be3-8598-8433111a4e0f" />
 
@@ -41,7 +41,7 @@
 
 
 
-##4단계
+## 4단계
 
 <img width="402" height="254" alt="스크린샷 2026-03-12 오후 5 18 14" src="https://github.com/user-attachments/assets/a51a4842-3b14-4c4a-802e-44741ec7c489" />
 
