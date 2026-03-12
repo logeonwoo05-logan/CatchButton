@@ -7,6 +7,8 @@ namespace CatchButton
         // Random 선언
         int score = 0;
         Random rd = new Random();
+        int miss = 0;
+
 
         public Form1()
         {
@@ -17,7 +19,7 @@ namespace CatchButton
         {
             // 버튼을 클릭하는 데 성공했을 때 메시지 띄우기
             MessageBox.Show("축하합니다~!");
-            
+
             // 클릭하면 100점 추가
             score += 100;
 
@@ -47,10 +49,38 @@ namespace CatchButton
 
             //도망가면 10점 감점
             score -= 10;
+            miss++;
 
             //폼 제목에 점수와 좌표 표시
             this.Text = $"점수: {score}점 | 버튼 위치: ({nextX}, {nextY})";
 
+            // 20번 놓쳤는지 확인
+            if (miss >= 20)
+            {
+                MessageBox.Show("Game Over"); // 게임 오버 출력
+                runningbutton.Enabled = false; //버튼 비활성화 
+                return;
+            }
+
+
+        }
+
+        private void reset_Click(object sender, EventArgs e)
+        {
+            // 점수,횟수 초기화
+            score = 0;
+            miss = 0;
+
+            //버튼 re활성화
+            runningbutton.Enabled = true;
+
+            // 버튼 크기 복구 
+            runningbutton.Width = 250;
+            runningbutton.Height = 100;
+
+            // 4. 폼 제목 초기화
+            this.Text = "다시 잘 해봐ㅋ";
         }
     }
+
 }
