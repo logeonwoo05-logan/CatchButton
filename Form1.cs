@@ -2,6 +2,12 @@ namespace CatchButton
 {
     public partial class Form1 : Form
     {
+
+        // score변수 선언
+        // Random 선언
+        int score = 0;
+        Random rd = new Random();
+
         public Form1()
         {
             InitializeComponent();
@@ -11,6 +17,16 @@ namespace CatchButton
         {
             // 버튼을 클릭하는 데 성공했을 때 메시지 띄우기
             MessageBox.Show("축하합니다~!");
+            
+            // 클릭하면 100점 추가
+            score += 100;
+
+            // 버튼 크기를 10% 축소
+            runningbutton.Width = (int)(runningbutton.Width * 0.9);
+            runningbutton.Height = (int)(runningbutton.Height * 0.9);
+
+            // 폼 제목에 점수 표시
+            this.Text = $"점수: {score}점";
         }
 
         private void runningbutton_MouseEnter(object sender, EventArgs e)
@@ -28,6 +44,13 @@ namespace CatchButton
             runningbutton.Location = new Point(nextX, nextY);
             // 5. 시각적 피드백 (폼 제목 표시줄에 좌표 출력)
             this.Text = $"버튼 위치: ({nextX}, {nextY})";
+
+            //도망가면 10점 감점
+            score -= 10;
+
+            //폼 제목에 점수와 좌표 표시
+            this.Text = $"점수: {score}점 | 버튼 위치: ({nextX}, {nextY})";
+
         }
     }
 }
